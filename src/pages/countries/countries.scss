@@ -1,0 +1,29 @@
+.countries-component {
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.country-list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  .country-item {
+    .name {
+      font-size: 16px;
+    }
+  }
+
+  @media (max-width: 1300px) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  @media (max-width: 700px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @media (max-width: 400px) {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

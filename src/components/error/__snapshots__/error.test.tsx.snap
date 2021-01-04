@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Error Component should match the snapshot 1`] = `
+<div
+  className="error-component"
+>
+  <div
+    className="error-content"
+  >
+    <span>
+      Failed to fetch 
+      .
+    </span>
+    <button
+      className="button"
+      onClick={[Function]}
+    >
+      Try again
+    </button>
+  </div>
+</div>
+`;

@@ -1,0 +1,15 @@
+.university-component {
+  padding: 10px;
+  color: var(--color-darker);
+  background-color: var(--color-light);
+
+  .name {
+    margin: 0;
+    font-weight: 700;
+  }
+
+  .link {
+    color: blue;
+    font-size: 12px;
+  }
+}

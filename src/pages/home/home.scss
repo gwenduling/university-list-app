@@ -1,0 +1,105 @@
+.home-band {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 500px;
+
+  .title {
+    margin: 0;
+    max-width: 50%;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 1.2;
+    color: var(--color-darker);
+  }
+
+  .button {
+    margin-top: 20px;
+    width: 300px;
+  }
+
+  &.-one {
+    background-color: var(--color-light);
+
+    .title {
+      color: var(--color-darker);
+    }
+  }
+
+  &.-two {
+    align-items: center;
+    background-color: var(--color-dark);
+
+    .title {
+      color: var(--color-light);
+    }
+  }
+
+  &.-three {
+    min-height: unset;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: var(--color-lightest);
+    .button-container {
+      margin-left: auto;
+    }
+  }
+
+  @media (max-width: 900px) {
+    .title {
+      font-size: 40px;
+    }
+  }
+
+  @media (max-width: 700px) {
+    min-height: 350px;
+
+    .title {
+      max-width: 70%;
+      font-size: 30px;
+    }
+  }
+
+  @media (max-width: 500px) {
+    .title {
+      font-size: 25px;
+      max-width: unset;
+    }
+
+    .button {
+      padding-left: 10px;
+      padding-right: 10px;
+      width: unset;
+    }
+  }
+}
+
+.countries-band {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+
+  .band-item {
+    padding: 10px;
+
+    &:first-child {
+      padding-left: 0;
+    }
+
+    .flag {
+      max-width: 200px;
+    }
+
+    .link {
+      display: inline-block;
+      margin-top: 10px;
+      font-weight: 700;
+    }
+  }
+
+  @media (max-width: 500px) {
+    .band-item .flag {
+      max-width: 150px;
+    }
+  }
+}

@@ -1,0 +1,241 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home Component should match the snapshot 1`] = `
+<div
+  className="home-component"
+>
+  <ReactTitle
+    title="University List App"
+  />
+  <div
+    className="home-band -one _padding-x"
+  >
+    <p
+      className="title"
+    >
+      Complete list of unversities worldwide.
+    </p>
+    <a
+      href="/universities"
+      tabIndex={-1}
+    >
+      <button
+        className="button"
+      >
+        View Universities
+      </button>
+    </a>
+  </div>
+  <div
+    className="home-band -two _padding-x"
+  >
+    <p
+      className="title"
+    >
+      Too many? Select a country first to view universities.
+    </p>
+    <a
+      href="/countries"
+      tabIndex={-1}
+    >
+      <button
+        className="button -dark"
+      >
+        View Countries
+      </button>
+    </a>
+  </div>
+  <div
+    className="home-band -three _padding-x"
+  >
+    <p
+      className="title"
+    >
+      View universities in
+    </p>
+    <div
+      className="countries-band"
+    >
+      <div
+        className="band-item"
+        key="0"
+      >
+        <a
+          className="link"
+          href="/countries/PH"
+        >
+          Philippines
+        </a>
+        <a
+          className="link"
+          href="/countries/PH"
+        >
+          <img
+            alt="Philippines flag"
+            className="flag"
+            src="https://restcountries.eu/data/phl.svg"
+          />
+        </a>
+      </div>
+      <div
+        className="band-item"
+        key="1"
+      >
+        <a
+          className="link"
+          href="/countries/ID"
+        >
+          Indonesia
+        </a>
+        <a
+          className="link"
+          href="/countries/ID"
+        >
+          <img
+            alt="Indonesia flag"
+            className="flag"
+            src="https://restcountries.eu/data/idn.svg"
+          />
+        </a>
+      </div>
+      <div
+        className="band-item"
+        key="2"
+      >
+        <a
+          className="link"
+          href="/countries/SG"
+        >
+          Singapore
+        </a>
+        <a
+          className="link"
+          href="/countries/SG"
+        >
+          <img
+            alt="Singapore flag"
+            className="flag"
+            src="https://restcountries.eu/data/sgp.svg"
+          />
+        </a>
+      </div>
+      <div
+        className="band-item"
+        key="3"
+      >
+        <a
+          className="link"
+          href="/countries/TH"
+        >
+          Thailand
+        </a>
+        <a
+          className="link"
+          href="/countries/TH"
+        >
+          <img
+            alt="Thailand flag"
+            className="flag"
+            src="https://restcountries.eu/data/tha.svg"
+          />
+        </a>
+      </div>
+      <div
+        className="band-item"
+        key="4"
+      >
+        <a
+          className="link"
+          href="/countries/MM"
+        >
+          Myanmar
+        </a>
+        <a
+          className="link"
+          href="/countries/MM"
+        >
+          <img
+            alt="Myanmar flag"
+            className="flag"
+            src="https://restcountries.eu/data/mmr.svg"
+          />
+        </a>
+      </div>
+      <div
+        className="band-item"
+        key="5"
+      >
+        <a
+          className="link"
+          href="/countries/KH"
+        >
+          Cambodia
+        </a>
+        <a
+          className="link"
+          href="/countries/KH"
+        >
+          <img
+            alt="Cambodia flag"
+            className="flag"
+            src="https://restcountries.eu/data/khm.svg"
+          />
+        </a>
+      </div>
+      <div
+        className="band-item"
+        key="6"
+      >
+        <a
+          className="link"
+          href="/countries/VN"
+        >
+          Vietnam
+        </a>
+        <a
+          className="link"
+          href="/countries/VN"
+        >
+          <img
+            alt="Vietnam flag"
+            className="flag"
+            src="https://restcountries.eu/data/vnm.svg"
+          />
+        </a>
+      </div>
+      <div
+        className="band-item"
+        key="7"
+      >
+        <a
+          className="link"
+          href="/countries/MY"
+        >
+          Malaysia
+        </a>
+        <a
+          className="link"
+          href="/countries/MY"
+        >
+          <img
+            alt="Malaysia flag"
+            className="flag"
+            src="https://restcountries.eu/data/mys.svg"
+          />
+        </a>
+      </div>
+    </div>
+    <a
+      className="button-container"
+      href="/countries"
+      tabIndex={-1}
+    >
+      <button
+        className="button"
+      >
+        or View All Countries
+      </button>
+    </a>
+  </div>
+</div>
+`;

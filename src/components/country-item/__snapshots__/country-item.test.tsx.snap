@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Country Item Component should match the snapshot 1`] = `
+<div
+  className="country-item"
+>
+  <img
+    alt="Philippines flag"
+    className="flag"
+    src="https://restcountries.eu/data/phl.svg"
+  />
+  <div
+    className="country-name"
+  >
+    <a
+      className="name"
+      href="/countries/PH"
+    >
+      Philippines
+    </a>
+    <p
+      className="native"
+    >
+      (
+      Pilipinas
+      )
+    </p>
+  </div>
+</div>
+`;

@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Universities Component should match the snapshot 1`] = `
+<div
+  className="universities _padding -grow"
+>
+  <ReactTitle
+    title="Universities | University List App"
+  />
+  <Error
+    content="universities"
+    onClick={[Function]}
+  />
+</div>
+`;

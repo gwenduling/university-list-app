@@ -1,70 +1,64 @@
-# Getting Started with Create React App
+# University List App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project uses the APIs of [University Domain List API](https://github.com/Hipo/university-domains-list-api) and [REST Countries](https://restcountries.eu/) to view a list of universities all over the world.
 
-## Available Scripts
+## Prerequisites
 
-In the project directory, you can run:
+- git
+- node with npm
+- ts node
 
-### `npm start`
+## Installing
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+1. Clone this repo using the command `git clone https://github.com/gwenduling/university-list-app.git`.
+2. Go to the directory of the project and run `npm install`.
+3. Type `npm start` to run the app locally to be viewed in `http://localhost:3000`.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Available commands
 
-### `npm test`
+### Install dependencies
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+`npm install`
 
-### `npm run build`
+### Run app locally
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+`npm start`
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Run server
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+`node server/server.js`
 
-### `npm run eject`
+In production, update value of `NEWSLETTER_API_BASE` in src/data/constants.ts. It is currently set for local development in `http://localhost:4000`.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Build for production
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+`npm run build`
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Files can be found under the `build` folder.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### Running tests
 
-## Learn More
+`npm test`
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Test coverage are set to be collected by default and can be found in `coverage/lcov-report/index.html`.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Built With
 
-### Code Splitting
+- [React](https://reactjs.org/)
+- [Typescript](https://www.typescriptlang.org/)
+- [Express](https://expressjs.com/)
+- [Jest](https://jestjs.io/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Acknowledgements
 
-### Analyzing the Bundle Size
+- [RSCSS](https://rscss.io/)
+- [example-react-app README.md](https://github.com/Piglacquer/example-react-app/blob/master/README.md)
+- [PurpleBooth README.md gist](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
+Still reading this? Awesome!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Hello, I am [Gwe](https://gwenduling.com)! This is actually a technical exam I needed to do for an awesome company. And it is my first time to work on React! Not out of strong opinions against it but because I didn't have the time.
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Anyway I am glad I pushed myself to continue this exam because I was prolonging it for a month now. It is fun learning React. I find it as both similar and an opposite of Angular 🤪. There's still a lot of areas to learn, I know I have just encountered a tiny bit the last few days, specially about best practices. Here's to kickstarting the 2021 with something new 🍻!

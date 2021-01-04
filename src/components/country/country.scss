@@ -1,0 +1,19 @@
+.country-component {
+  margin-top: 20px;
+}
+
+.result-count {
+  font-size: 14px;
+}
+
+.show-more {
+  width: calc(25% - 10px);
+
+  @media (max-width: 1300px) {
+    width: calc(33% - 3px);
+  }
+
+  @media (max-width: 500px) {
+    width: 100%;
+  }
+}

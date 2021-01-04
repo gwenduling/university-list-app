@@ -1,0 +1,15 @@
+.error-component {
+  min-height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.error-content {
+  display: flex;
+  flex-direction: column;
+  .button {
+    margin-top: 5px;
+    width: 100%;
+  }
+}

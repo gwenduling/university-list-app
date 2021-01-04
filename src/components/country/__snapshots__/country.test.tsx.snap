@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Country Component should match the snapshot with empty universities 1`] = `
+<div
+  className="country-component"
+>
+  <CountryItem
+    country={
+      Object {
+        "alpha2Code": "PH",
+        "altSpellings": Array [
+          "PH",
+          "Republic of the Philippines",
+          "Repúblika ng Pilipinas",
+        ],
+        "count": 0,
+        "flag": "https://restcountries.eu/data/phl.svg",
+        "name": "Philippines",
+        "nativeName": "Pilipinas",
+        "total": 0,
+      }
+    }
+  />
+  <div
+    className="result-count"
+  >
+    Showing 
+    0
+     of 
+    0
+     
+    universities
+  </div>
+  <div
+    className="universities-list"
+  />
+</div>
+`;

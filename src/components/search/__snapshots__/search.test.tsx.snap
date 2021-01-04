@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Search Component should match the snapshot 1`] = `
+<div
+  className="search-input"
+>
+  <label
+    className="label"
+  />
+  <DebounceInput
+    debounceTimeout={200}
+    element="input"
+    forceNotifyByEnter={true}
+    forceNotifyOnBlur={true}
+    minLength={0}
+    onChange={[Function]}
+    placeholder=""
+    type="text"
+    value=""
+  />
+</div>
+`;
